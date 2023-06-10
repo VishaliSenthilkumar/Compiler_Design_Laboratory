@@ -1,0 +1,6 @@
+https://cs6612compilerlab.blogspot.com/2018/04/bnf-rules-into-yacc-form-and-write-code.html
+
+lex syntax.l
+yacc -d syntax.y
+gcc lex.yy.c y.tab.c -ll -lm -w
+./a.out test.c
